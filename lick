@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Event Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .event {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sports Event Tracker</h1>
+    </header>
+
+    <main>
+        <div class="event">
+            <h2>Football Match</h2>
+            <p>Date: January 1, 2023</p>
+            <p>Location: Stadium XYZ</p>
+            <p>Score: Team A 2 - Team B 1</p>
+        </div>
+
+        <div class="event">
+            <h2>Basketball Game</h2>
+            <p>Date: January 2, 2023</p>
+            <p>Location: Arena ABC</p>
+            <p>Score: Team X 80 - Team Y 75</p>
+        </div>
+
+        <!-- Add more events as needed -->
+
+    </main>
+</body>
+</html>
